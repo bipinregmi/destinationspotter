@@ -55,7 +55,7 @@ export default () => {
             <div className="team-member">
               <img
                 className="mx-auto rounded-circle"
-                src={require("../assets/img/bg-header.jpg")}
+                src={require("../assets/img/shahar.JPG")}
                 alt=""
               />
               <h4>Shahar Kadoch</h4>
