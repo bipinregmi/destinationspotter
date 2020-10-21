@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.modalBackground {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.modalShowing-true {
+  opacity: 1;
+  pointer-events: showing;
+}
+
+.scrollBar {
+  height: 30;
+  border: "1px solid green";
+  margin: 6;
+  padding: 8;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item{
+  width: "30px";
+}
+
+.locationItem{
+  text-align: left;
+  size: 200px;
+  font-weight: bold;
+}
