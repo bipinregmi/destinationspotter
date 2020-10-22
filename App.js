@@ -6,8 +6,8 @@ import PopularPlaces from "./components/PopularPlaces";
 import Features from "./components/features";
 import Team from "./components/Team";
 import Profile from "./components/profile";
-import SavedGallery from "./components/savedGallery";
-import SharedGallery from "./components/sharedGallery";
+//import SavedGallery from "./components/savedGallery";
+//import SharedGallery from "./components/sharedGallery";
 
 function App() {
   return (
@@ -42,11 +42,7 @@ function App() {
       <Features> </Features>
 
       <Team> </Team>
-
       <Profile> </Profile>
-
-      <SavedGallery> </SavedGallery>
-      <SharedGallery> </SharedGallery>
 
       <footer className="footer py-4">
         <div className="row">

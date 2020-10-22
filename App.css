@@ -54,3 +54,24 @@
   size: 200px;
   font-weight: bold;
 }
+
+.settingsInfo{
+  position: absolute;
+  left: 500px;
+}
+
+.settingsInfoPN{
+  position: absolute;
+  left: 550px;
+}
+
+.interests{
+  border-style: solid;
+  border-spacing: 15px;
+  padding-left: 30px;
+  width: 110px;
+}
+
+.underline{
+  text-decoration: underline;
+}
