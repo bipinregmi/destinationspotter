@@ -10,11 +10,18 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
+    "react-activity-feed": "^0.10.4",
     "react-bootstrap": "^1.3.0",
     "react-bootstrap-icons": "^1.0.0",
+    "react-cool-onclickoutside": "^1.5.7",
     "react-dom": "^16.13.1",
+    "react-google-login": "^5.1.21",
+    "react-places-autocomplete": "^7.3.0",
     "react-popupbox": "^2.0.8",
-    "react-scripts": "3.4.3"
+    "react-responsive-modal": "^5.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "use-places-autocomplete": "^1.5.7"
   },
   "scripts": {
     "start": "react-scripts start",
