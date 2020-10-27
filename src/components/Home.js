@@ -41,29 +41,6 @@ class Home extends Component {
     this.setState({ login: false });
   };
 
-  // signup(response, type) {
-  //   let postData;
-  //   if (type === "google" && response.w3.U3) {
-  //     postData = {
-  //       name: response.w3.ig,
-  //       provider: type,
-  //       email: response.w3.u3,
-  //       provider_id: response.El,
-  //       token: response.Zi.access_token,
-  //       provider_pic: response.w3.Paa,
-  //     };
-  //   }
-
-  //   if (postData) {
-  //     PostData("signup", postData).then((result) => {
-  //       let responseJson = result;
-  //       sessionStorage.setItem("userData", JSON.stringify(responseJson));
-  //       this.setState({ redirect: true });
-  //     });
-  //   } else {
-  //   }
-  // }
-
   render() {
     //Used  GoogleAPIs to get the clientId
     const clientId =
