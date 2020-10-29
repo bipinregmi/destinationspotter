@@ -75,7 +75,7 @@ class Home extends Component {
               <h5 className="logoName">Destination Spotter</h5>
             </a>
             <button
-              class="navbar-toggler navbar-toggler-right"
+              className="navbar-toggler navbar-toggler-right"
               type="button"
               data-toggle="collapse"
               data-target="#navbarResponsive"

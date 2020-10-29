@@ -11,10 +11,12 @@ con.connect((err) => {
     console.log('Connected!');
 });
 
-con.query('SELECT * FROM locations', (err,rows) => {
-    if (err) throw err;
+function printTable(){
+    con.query('SELECT * FROM locations', (err,rows) => {
+        if (err) throw err;
 
-    rows.forEach((row)=> {
-        console.log(`${row.city} has zipcode ${row.zipcode}`);
+        rows.forEach((row)=> {
+            console.log(`${row.city} has zipcode ${row.zipcode}`);
+        })
     })
-})
+}
