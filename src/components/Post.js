@@ -38,7 +38,6 @@ function Post ({postId, imageUrl,description, user, locationName, City, State}) 
     });
     setComment('');// clears the box
 
-
   }
   
     return (
