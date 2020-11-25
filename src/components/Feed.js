@@ -3,7 +3,8 @@ import '../assets/css/styles1.css'
 import Post from './Post';
 import {db} from '../service/firebase'
 import MainNav from "./MainNavAfterLogin";
-// UseEfect Runs a piece of a code based on a specific condition
+// UseEffect Runs a piece of a code based on a specific condition
+
 function  Feed(user) {
   const [posts, setPosts] = useState([]);
 
@@ -29,7 +30,6 @@ function  Feed(user) {
 
           <div className="container" style={{textAlign:"left"}} >
 
-            
             {
               posts.map(({id, post}) => (
                 <Post key = {id} postId = {id} locationName = {post.locationName} imageUrl = {post.imageUrl} description = {post.description} date = {post.date}

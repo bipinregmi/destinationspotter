@@ -1,6 +1,6 @@
 // This is Navigation that will after the user logged in
 import React from "react";
-
+import SearchBar from "./SearchBar";
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import {logout } from './Home';
@@ -60,23 +60,9 @@ function MainNavAfterLogin (user) {
             className="collapse navbar-collapse flex-grow-1 text-right"
             id="navbarResponsive"
           >
-            <div>
-              <InputGroup size="md" style={{ width: "720px" }}>
-                <FormControl
-                  placeholder="Search for a Place/Zip Code/ City"
-                  aria-label="SearchPlace"
-                  aria-describedby="basic-addon2"
-                />
-                <InputGroup.Append>
-                  <a
-                    className="btn btn-info btn-md text-uppercase js-scroll-trigger"
-                    href="#search"
-                  >
-                    Search
-                  </a>
-                </InputGroup.Append>
-              </InputGroup>
-            </div>
+
+            <SearchBar></SearchBar>
+
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
 

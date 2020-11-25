@@ -11,13 +11,9 @@ import '../assets/css/styles1.css';
 import Feed from './Feed';
 
 
-
-
-
 function Home() {
     //Used  GoogleAPIs to get the clientId
-    const clientId =
-      "578904471981-5iroqee5vr23v97odtfo5ueuta2p4na3.apps.googleusercontent.com";
+    const clientId = "578904471981-5iroqee5vr23v97odtfo5ueuta2p4na3.apps.googleusercontent.com";
     const [openLogin, setOpenLogin] = useState(false);
     const [open, setOpen] = useState(false);
 

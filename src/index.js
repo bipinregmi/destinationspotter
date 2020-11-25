@@ -30,7 +30,7 @@ ReactDOM.render(
       path="/home" 
       strict
       render={() => {
-        return <App  />;
+        return <App />;
       }}
     />
 
